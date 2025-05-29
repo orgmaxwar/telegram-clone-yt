@@ -4,13 +4,13 @@ import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDk6VzXoNS3nTvCo38NBNGVV3iJnBgLn4U",
-  authDomain: "telegram-clone-yt.firebaseapp.com",
-  projectId: "telegram-clone-yt",
-  storageBucket: "telegram-clone-yt.appspot.com",
-  messagingSenderId: "1082678069648",
-  appId: "1:1082678069648:web:30b95d965807dbef340b15",
-};
+    apiKey: "AIzaSyDFbZAXXt51bJ1N1ZlVQQAts5amOkyiKLY",
+    authDomain: "maxwarz.firebaseapp.com",
+    projectId: "maxwarz",
+    storageBucket: "maxwarz.firebasestorage.app",
+    messagingSenderId: "665319822888",
+    appId: "1:665319822888:web:ae59decbf770cac5d0071d"
+  };
 
 const app = initializeApp(firebaseConfig);
 export const db = getFirestore(app);
